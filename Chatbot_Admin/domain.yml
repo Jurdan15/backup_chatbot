@@ -1,0 +1,17 @@
+responses:
+  utter_jerald:
+    - custom:
+        attachment:
+          type: template
+          payload:
+            template_type: button
+            text: "sure?"
+            buttons:
+              - type: postback
+                title: "yes"
+                payload: "/hiii"
+
+  utter_hii:
+    - text: |
+        hiii
+
